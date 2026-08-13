@@ -1,10 +1,9 @@
-// Replace these values with the Web app configuration from Firebase Console.
-// Project settings → Your apps → Web app → SDK setup and configuration.
 export const firebaseConfig = {
-  apiKey: "PASTE_YOUR_API_KEY",
-  authDomain: "PASTE_YOUR_PROJECT.firebaseapp.com",
-  projectId: "PASTE_YOUR_PROJECT_ID",
-  storageBucket: "PASTE_YOUR_PROJECT.firebasestorage.app",
-  messagingSenderId: "PASTE_YOUR_SENDER_ID",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyCPKNgFk8Ca6jAsg9xBT1IFszLt84dIryI",
+  authDomain: "game-da862.firebaseapp.com",
+  projectId: "game-da862",
+  storageBucket: "game-da862.firebasestorage.app",
+  messagingSenderId: "445790113359",
+  appId: "1:445790113359:web:03c7b15cf415679478243a",
+  measurementId: "G-3HCSLDYT84"
 };
