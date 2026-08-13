@@ -1,0 +1,57 @@
+[debug] [2026-08-13T10:36:00.480Z] ----------------------------------------------------------------------
+[debug] [2026-08-13T10:36:00.483Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use
+[debug] [2026-08-13T10:36:00.483Z] CLI Version:   15.26.0
+[debug] [2026-08-13T10:36:00.483Z] Platform:      win32
+[debug] [2026-08-13T10:36:00.483Z] Node Version:  v24.16.0
+[debug] [2026-08-13T10:36:00.484Z] Detected Agent: codex_cli
+[debug] [2026-08-13T10:36:00.484Z] Time:          Thu Aug 13 2026 16:36:00 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-08-13T10:36:00.484Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-13T10:36:00.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-13T10:36:00.642Z] > authorizing via signed-in user (gameghor1835@gmail.com)
+[info] game-da862
+[debug] [2026-08-13T10:36:05.311Z] ----------------------------------------------------------------------
+[debug] [2026-08-13T10:36:05.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2026-08-13T10:36:05.314Z] CLI Version:   15.26.0
+[debug] [2026-08-13T10:36:05.314Z] Platform:      win32
+[debug] [2026-08-13T10:36:05.314Z] Node Version:  v24.16.0
+[debug] [2026-08-13T10:36:05.314Z] Detected Agent: codex_cli
+[debug] [2026-08-13T10:36:05.315Z] Time:          Thu Aug 13 2026 16:36:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-08-13T10:36:05.315Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-13T10:36:07.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-13T10:36:07.419Z] > authorizing via signed-in user (gameghor1835@gmail.com)
+[debug] [2026-08-13T10:36:07.420Z] [iam] checking project game-da862 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-08-13T10:36:07.436Z] Checked if tokens are valid: false, expires at: 1786610210375
+[debug] [2026-08-13T10:36:07.436Z] Checked if tokens are valid: false, expires at: 1786610210375
+[debug] [2026-08-13T10:36:07.437Z] > refreshing access token with scopes: []
+[debug] [2026-08-13T10:36:07.440Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-13T10:36:07.440Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-13T10:36:07.650Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-13T10:36:07.651Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-13T10:36:07.666Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-da862:testIamPermissions [none]
+[debug] [2026-08-13T10:36:07.667Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-da862:testIamPermissions  x-goog-user-project=game-da862
+[debug] [2026-08-13T10:36:07.667Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-da862:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-08-13T10:36:09.379Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-da862:testIamPermissions 200
+[debug] [2026-08-13T10:36:09.379Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-da862:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-08-13T10:36:09.380Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:09.380Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:09.380Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-da862 [none]
+[debug] [2026-08-13T10:36:10.771Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-da862 200
+[debug] [2026-08-13T10:36:10.772Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-da862 {"projectId":"game-da862","projectNumber":"445790113359","displayName":"game","name":"projects/game-da862","resources":{"hostingSite":"game-da862"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_87809f0f-23f7-44a1-9c0d-1b9543ee73fb"}
+[info] 
+[info] === Deploying to 'game-da862'...
+[info] 
+[info] i  deploying firestore, hosting 
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2026-08-13T10:36:10.778Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:10.778Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:10.779Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/game-da862/databases/(default) [none]
+[debug] [2026-08-13T10:36:12.643Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/game-da862/databases/(default) 200
+[debug] [2026-08-13T10:36:12.643Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/game-da862/databases/(default) {"name":"projects/game-da862/databases/(default)","uid":"efb05b5c-a56c-456b-9e67-08a9d51d9c51","createTime":"2026-08-13T07:39:51.755961Z","updateTime":"2026-08-13T07:39:51.755961Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2026-08-13T09:36:12.390759Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"realtimeUpdatesMode":"REALTIME_UPDATES_MODE_ENABLED","etag":"IPfj0q60nZYDMPTvz52RnZYD"}
+[info] i  cloud.firestore: checking firestore.rules for compilation errors... 
+[debug] [2026-08-13T10:36:12.644Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:12.644Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:12.644Z] >>> [apiv2][query] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test [none]
+[debug] [2026-08-13T10:36:12.644Z] >>> [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test [omitted]
