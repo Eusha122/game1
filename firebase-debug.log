@@ -55,3 +55,178 @@
 [debug] [2026-08-13T10:36:12.644Z] Checked if tokens are valid: true, expires at: 1786620966651
 [debug] [2026-08-13T10:36:12.644Z] >>> [apiv2][query] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test [none]
 [debug] [2026-08-13T10:36:12.644Z] >>> [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test [omitted]
+[debug] [2026-08-13T10:36:14.225Z] <<< [apiv2][status] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test 200
+[debug] [2026-08-13T10:36:14.225Z] <<< [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/game-da862:test {}
+[info] +  cloud.firestore: rules file firestore.rules compiled successfully 
+[debug] [2026-08-13T10:36:14.227Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:14.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:14.228Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/game-da862/sites/game-da862 [none]
+[debug] [2026-08-13T10:36:15.188Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/game-da862/sites/game-da862 200
+[debug] [2026-08-13T10:36:15.189Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/game-da862/sites/game-da862 {"name":"projects/game-da862/sites/game-da862","defaultUrl":"https://game-da862.web.app","appId":"1:445790113359:web:03c7b15cf415679478243a","type":"DEFAULT_SITE"}
+[debug] [2026-08-13T10:36:15.192Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:15.193Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:15.193Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions [none]
+[debug] [2026-08-13T10:36:15.194Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-08-13T10:36:16.442Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions 200
+[debug] [2026-08-13T10:36:16.443Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions {"name":"projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2026-08-13T10:36:16.444Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:16.444Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:16.444Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/game-da862/releases pageSize=10&pageToken=
+[debug] [2026-08-13T10:36:17.849Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/game-da862/releases 200
+[debug] [2026-08-13T10:36:17.850Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/game-da862/releases {"releases":[{"name":"projects/game-da862/releases/cloud.firestore","rulesetName":"projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c","createTime":"2026-08-13T07:39:55.759992Z","updateTime":"2026-08-13T07:41:40.846561Z"}]}
+[debug] [2026-08-13T10:36:17.850Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:17.850Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:17.850Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c [none]
+[debug] [2026-08-13T10:36:19.282Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c 200
+[debug] [2026-08-13T10:36:19.282Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c [omitted]
+[info] i  firestore: latest version of firestore.rules already up to date, skipping upload... 
+[info] i  firestore: deploying indexes... 
+[info] i  hosting[game-da862]: beginning deploy... 
+[info] i  hosting[game-da862]: found 62 files in . 
+[debug] [2026-08-13T10:36:19.306Z] [hosting] uploading with 200 concurrency
+[debug] [2026-08-13T10:36:19.344Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:19.344Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:19.345Z] [hosting] hash cache [] stored for 62 files
+[debug] [2026-08-13T10:36:19.345Z] [hosting][hash queue][FINAL] {"max":18,"min":0,"avg":2.499899230103181,"active":0,"complete":62,"success":62,"errored":0,"retried":0,"total":62,"elapsed":24}
+[debug] [2026-08-13T10:36:19.346Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b:populateFiles [none]
+[debug] [2026-08-13T10:36:19.346Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b:populateFiles {"files":{"/README.md":"14e277a57c2856d62d3654b7addd79c1785cdb9c1de7598b518904817d5c0016","/index.html":"bfd60ae0592e5c4ebe0e7d5e4be194cf887b4abfabcf3c86c00a00b7d9b41e64","/firestore.rules":"5be5f0cf30a0556f67310a76cf69bb48f9f71f73b1406370a42a45435ec23b98","/firebase-config.js":"b2f21c39d39b266b9e0b4ac565d66291f36ac449d3056e4f3e27f9c1679218b9","/.git/HEAD":"23960fa2316fb1cd093c7920df1e9c864ee8c2d784908f7372cd5da920fc3d48","/.git/description":"82406efccfbaa0195ef86e8c8aa8fc71d38fb93a6aa0fbd00d90629d3bbe2342","/.git/config":"6ad7ce6fcb932902e9ddb0831983c4ddd32dd51cf33482ca2a3d3e8a551a2e4c","/.git/refs/codex/turn-diffs/checkpoints/5c53bc4425ae3061c1df456c86c77eb64442c6cb51c0d63935e9129590b65ec9/69c344c27418561e46a32d7d556399fbf07c1859730fca6588796de128974608/1786606844306/c64f036a-2c40-4896-87e7-fec23440c7ec":"745124b55628451da961b13bfd374743d6a5796c45b5cea88a075e1d219e05cc","/.git/objects/ec/21f50dba261a70320173903dcfe2cb3499a354":"24fd12bc5f0f2b38c4f507719196d7f5ba5016fb1cff0e9dcca429f27abb2ad8","/.git/objects/e1/b3fa99e302eb66ede34796cb25f3f45084f554":"a6f6781da920f70065869540c4f7aca96aa091bcd056f4fc0b1e3d0f4fc58171","/.git/objects/e0/e238a4f8858d497847537a6f62421ba408047d":"877a3f47015493ee1e3c16fc20838a764c6e553a817c138f482737f1e59ba504","/.git/objects/c7/1b1e8a79c0a875a00131bfaf8ba63d0b8a01df":"65fdd2763501ede59a88411f48788d8e63b00a2cad728cea1eddeb407668f6d7","/.git/objects/bb/a2d3a8a4956ba816c35efe3d8b7f1e20d1607f":"32442d7bdaa721d8357a20861d73756c7f830866d56f455923e7882ba815ba14","/.git/objects/a2/a7d6d4dc199d831548bdb2af85d3223487cec0":"7e73577fa5378480c6f7764790b5edbd9b8c060a2092c103612c433e3589afa4","/.git/objects/92/17e0d9d14ddf1b47d210babacfa5f7d2adc989":"527b065359808e6c8db54b54daf3b4ee92aa0435a7cc4b2227ca47ce8a752049","/.git/objects/8e/d2c2db2e2e4cdcada772693c268fd43c26f058":"ac606ab45884fcdc89317801d89005e338a2ec5dec18ea994b159d3469a8cd67","/.git/objects/7f/594c8b89683ae5ba7f8949447ae969df754073":"94e76f03d9065c2b22733703c1b597b5d9f65f52e69717a80a037835fae3b682","/.git/objects/7e/b8a904f88c604d45fa9fe2c48f7e293c60d72c":"f550682c40bb3442c668b669485dc967d4f6dde17244c814aba8a86a6d16111a","/.git/objects/7d/eac458624cf496350b91999af6bee1c4185c70":"94cc3a243ffe9b1268e4d99686e71ec6a44bd9252d003cf033bf8ac25a79270c","/.git/objects/6c/62abdc2e94fb63d5c9bf11ee1108d51b7bae42":"0a74f1c2cc4261555acbadac21c3fb8f4eb8b431a3a9358c35a29bc9a8fcfc88","/.git/objects/5e/f9b5d1317884d9aa9ed8173c5436d0ed0668ac":"d42e4739752fe214de185be5ecd51db24ce2f6216f0a3f8f6898a49e58151beb","/.git/objects/52/e1c2d0d8c63aef7ad1096646464649ec3e5ceb":"0b55add95b73e4de92f36d5b277995b9424364353d255728366d84877f120805","/.git/objects/52/464316f6750d9f3f673738774beb79f68f7b89":"c817136e7ac3e95299bb34ee0cd7cc6a209fc2dff8f3e7498d847824cfd8d9d2","/.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904":"1e61e0b2f6c8423512473c5c9567fb9994012422c0bb41de53920328ae24edd2","/.git/objects/42/12a616000f529b9c83b8d79ad168fe8effe44a":"57c0f5b9a8ea1e32cd8afbdd27b1e63e8b00aae15bb30cd89fc4c09cd4c7fe51","/.git/objects/2e/2348545e531f971ba9d3478698b962ca9668f6":"30bdc543f41077f49a37dddf5822474cd1fd513f7ac3c8e279c520d510708327","/.git/objects/27/cb9af3ffe6908e3029759e748e1649606806a6":"91e51592f0a6d992280c90752c9fe0dfcc562fc7001b0d6d6b1811e0c5cda858","/.git/objects/0a/8154fcb5012d7eabc1f0620e0560ba2592b14a":"b7cb58370539bb2bf5b2141cec2405f078599b8e3cab13dc809cee5ccc9130b9","/.git/objects/03/310fedc294f49566f35547cc7fdce253f7d288":"1e27b6668e6a69ccb1f81280b4f0436d30f45fd899c43aceeb60d02fdef82944","/.git/objects/01/850999f0d4c1738e8a5481b878702e0bdece40":"33c4818176e90a4aef56bb0d7b73637ea42afda436f301621a89ea9bd1176012","/.git/objects/00/049a2a8095c468a5fec763873c404b67f94d1d":"a48891758da290a3bde21248a856476206d3a0a72bb3670414e55c57ce2fc128","/.git/info/exclude":"994a83b0bd13a31e35114caf18e8b7fcff4253406797d657aa1d9ea64c7b721d","/.git/hooks/update.sample":"a022fa3ca5c3a9dffa3c09dc035866a2c4e6e935a372724aabba8dd6a5639fee","/.git/hooks/sendemail-validate.sample":"5179ae7bdd72e97e2d9cdbfcec1e72434f42f7f5748665239355f08badcbbee7","/.git/hooks/push-to-checkout.sample":"b686f0c3faae36d5e3110bd8933f861039094c0a996e5c55c3a776a209ca119b","/.git/hooks/prepare-commit-msg.sample":"da47e5ee9571edfcb45598d9e1ed424dc30a87011c99c5d205015bbc8cfe16cc","/.git/hooks/pre-receive.sample":"518430951f2c7182a5fc07191f43236719c64a5244e0ac82131ea92dbe4a2f67","/.git/hooks/pre-rebase.sample":"4c12afd92c797d205ded918d4da7fff21f264e3347ccfe1f718df372100dea0e","/.git/hooks/pre-push.sample":"661c005b1ebf95bb520578d7421bf511e0d91ecac507fc1818ee60c2e3127f64","/.git/hooks/pre-merge-commit.sample":"08d54483ffa10c472d4b5bf54e637a763a905f6909af1491ad4ca8a19241496c","/.git/hooks/pre-commit.sample":"0dc110f82f15687bb7daae0e09828a248ba74bacc4373b6c5e395fa1140853ef","/.git/hooks/pre-applypatch.sample":"efd041617b404639750884bd01917d80c6ec9917e3021e448a1386a237184a36","/.git/hooks/post-update.sample":"4545774e0eba6264d25197fec3cc1520bfd61d16bf6b417b7b1566460ebc28ec","/.git/hooks/fsmonitor-watchman.sample":"7be41ceb43aa45424c8db847f44a7340e790ef8d50a9799d36761a5bae7afae7","/.git/hooks/commit-msg.sample":"2e1e33302155d275a43f4b18dadd9d38ae5f64f416ba028e1e6632a3e0f9e620","/.git/hooks/applypatch-msg.sample":"e989aeea500fde675ea8ee009c4cf25aae7abbf4dd02c15b04cb8c85404dbca3","/.git/COMMIT_EDITMSG":"2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513","/.git/refs/remotes/origin/main":"09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea","/styles.css":"11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8","/.git/refs/heads/main":"09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea","/.git/ORIG_HEAD":"09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea","/.git/refs/codex/turn-diffs/captures/1786617240009/0a835472-5206-46bf-ad92-cf8465483e1a/base":"f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc","/app.js":"cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826","/.git/FETCH_HEAD":"55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5","/.git/index":"471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c","/.git/objects/1a/7ce1ac04a06883f75f3cc7557de8629e011f55":"5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4","/.git/objects/eb/714e5158882ccd4cab42788c6f2a46eec39f4a":"ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259","/.git/objects/e4/ae6b8d5a799052460543dc1798e9ca74a9a074":"a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde","/.git/logs/HEAD":"fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012","/.git/logs/refs/heads/main":"fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012","/.git/logs/refs/remotes/origin/main":"3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0","/.git/objects/7c/6777dcf945682c09a49fa0ec676799eea23e89":"8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713"}}
+[debug] [2026-08-13T10:36:20.224Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b:populateFiles 200
+[debug] [2026-08-13T10:36:20.225Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b:populateFiles {"uploadRequiredHashes":["ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259","fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012","11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8","09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea","5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4","2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513","8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713","a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde","cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826","471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c","55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5","f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc","3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files"}
+[debug] [2026-08-13T10:36:20.225Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.225Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.226Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.226Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.226Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.226Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.227Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.227Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.227Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.227Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.228Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.229Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.230Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.230Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:20.230Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259 [none]
+[debug] [2026-08-13T10:36:20.230Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259 [stream]
+[debug] [2026-08-13T10:36:20.231Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012 [none]
+[debug] [2026-08-13T10:36:20.231Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012 [stream]
+[debug] [2026-08-13T10:36:20.232Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8 [none]
+[debug] [2026-08-13T10:36:20.232Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8 [stream]
+[debug] [2026-08-13T10:36:20.232Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea [none]
+[debug] [2026-08-13T10:36:20.232Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea [stream]
+[debug] [2026-08-13T10:36:20.233Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4 [none]
+[debug] [2026-08-13T10:36:20.233Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4 [stream]
+[debug] [2026-08-13T10:36:20.233Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513 [none]
+[debug] [2026-08-13T10:36:20.233Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513 [stream]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713 [none]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713 [stream]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde [none]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde [stream]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826 [none]
+[debug] [2026-08-13T10:36:20.234Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826 [stream]
+[debug] [2026-08-13T10:36:20.235Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c [none]
+[debug] [2026-08-13T10:36:20.236Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c [stream]
+[debug] [2026-08-13T10:36:20.237Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5 [none]
+[debug] [2026-08-13T10:36:20.237Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5 [stream]
+[debug] [2026-08-13T10:36:20.238Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc [none]
+[debug] [2026-08-13T10:36:20.238Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc [stream]
+[debug] [2026-08-13T10:36:20.239Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0 [none]
+[debug] [2026-08-13T10:36:20.239Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0 [stream]
+[debug] [2026-08-13T10:36:20.244Z] [hosting][populate queue][FINAL] {"max":886,"min":886,"avg":886,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":900}
+[debug] [2026-08-13T10:36:20.245Z] [hosting] uploads queued: 13
+[info] i  hosting: uploading new files [0/13] (0%) 
+[debug] [2026-08-13T10:36:21.921Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea 200
+[debug] [2026-08-13T10:36:21.921Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/09ce538a36e8849139360959e8cf279f10bc4a80754e0876a91d6476c715cfea [stream]
+[debug] [2026-08-13T10:36:21.951Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513 200
+[debug] [2026-08-13T10:36:21.952Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/2ddd43973e9f89e270cf1d31da3683c839d09bb21c369ffac9a6572662875513 [stream]
+[debug] [2026-08-13T10:36:22.108Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc 200
+[debug] [2026-08-13T10:36:22.108Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/f4c00f7dca35b0bfdc815bd8ee9847efcf6680f0936e6756d14a6892465cc0dc [stream]
+[debug] [2026-08-13T10:36:22.139Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c 200
+[debug] [2026-08-13T10:36:22.139Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/471d76aed827f343203205dddf9ce5360018b9f6636bb3dc4e2e0a4781d8685c [stream]
+[debug] [2026-08-13T10:36:22.140Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5 200
+[debug] [2026-08-13T10:36:22.140Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/55ea172282a7aca91d198883169d7cf3e6478021770df3ddf4047d47d6ba91a5 [stream]
+[debug] [2026-08-13T10:36:22.152Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012 200
+[debug] [2026-08-13T10:36:22.152Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/fa4ce30e0cc4e605d57520b7232af91eabddd6d4dd35c7e5e3042981f8b7e012 [stream]
+[debug] [2026-08-13T10:36:22.153Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0 200
+[debug] [2026-08-13T10:36:22.153Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/3ee6d024dda2bc4eba8253d7d3a97987327cd8d70156b6b92b928ef6a1237ea0 [stream]
+[debug] [2026-08-13T10:36:22.167Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826 200
+[debug] [2026-08-13T10:36:22.167Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/cf0507ff8818240bfb73512f0ed4dae29b639462f8b07fb06b87d6ee4c118826 [stream]
+[debug] [2026-08-13T10:36:22.172Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8 200
+[debug] [2026-08-13T10:36:22.172Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/11f5775f239bec294520916b1ca4f10dd82769e1f08b527927644092cf28c6d8 [stream]
+[debug] [2026-08-13T10:36:22.226Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde 200
+[debug] [2026-08-13T10:36:22.226Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/a28365ee20ebe02f18e555df08f1ff9979d2a09a51e7cf4d9ee248b52093fcde [stream]
+[debug] [2026-08-13T10:36:22.247Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259 200
+[debug] [2026-08-13T10:36:22.247Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/ea0fa1c2d789b5eaec3175642a45e433f4144d1e3b67624c6a217fe21d99b259 [stream]
+[debug] [2026-08-13T10:36:22.260Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713 200
+[debug] [2026-08-13T10:36:22.260Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/8bd8f7eae7f14dbb287a6d4589ed5acd221ccc439bb6f377c306424f53340713 [stream]
+[debug] [2026-08-13T10:36:22.396Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4 200
+[debug] [2026-08-13T10:36:22.397Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-da862/versions/ad6ab9c9c863d86b/files/5e835bfd571630a35e8b5d941fd88eef266c0a29e6e1666e1e5ec5f1ac5449d4 [stream]
+[debug] [2026-08-13T10:36:22.397Z] [hosting][upload queue][FINAL] {"max":2170,"min":1695,"avg":1929,"active":0,"complete":13,"success":13,"errored":0,"retried":0,"total":13,"elapsed":2172}
+[info] i  hosting: upload complete 
+[info] +  hosting[game-da862]: file upload complete 
+[debug] [2026-08-13T10:36:22.397Z] [hosting] deploy completed after 3112ms
+[debug] [2026-08-13T10:36:22.397Z] [rules] releasing cloud.firestore with ruleset projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c
+[debug] [2026-08-13T10:36:22.398Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:22.398Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:22.398Z] >>> [apiv2][query] PATCH https://firebaserules.googleapis.com/v1/projects/game-da862/releases/cloud.firestore [none]
+[debug] [2026-08-13T10:36:22.398Z] >>> [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/game-da862/releases/cloud.firestore {"release":{"name":"projects/game-da862/releases/cloud.firestore","rulesetName":"projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c"}}
+[debug] [2026-08-13T10:36:23.850Z] <<< [apiv2][status] PATCH https://firebaserules.googleapis.com/v1/projects/game-da862/releases/cloud.firestore 200
+[debug] [2026-08-13T10:36:23.850Z] <<< [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/game-da862/releases/cloud.firestore {"name":"projects/game-da862/releases/cloud.firestore","rulesetName":"projects/game-da862/rulesets/482bd7c9-9efa-4ef3-aafa-66895b0be41c","createTime":"2026-08-13T07:39:55.759992Z","updateTime":"2026-08-13T10:36:23.602285Z"}
+[debug] [2026-08-13T10:36:23.851Z] [rules] updated release projects/game-da862/releases/cloud.firestore
+[info] +  firestore: released rules firestore.rules to cloud.firestore 
+[debug] [2026-08-13T10:36:23.851Z] [
+  {
+    "config": {
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        ".firebaserc",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "game-da862"
+    },
+    "version": "projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b"
+  }
+]
+[info] i  hosting[game-da862]: finalizing version... 
+[debug] [2026-08-13T10:36:23.852Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:23.852Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:23.853Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions/ad6ab9c9c863d86b updateMask=status%2Cconfig
+[debug] [2026-08-13T10:36:23.853Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions/ad6ab9c9c863d86b {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2026-08-13T10:36:24.764Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions/ad6ab9c9c863d86b 200
+[debug] [2026-08-13T10:36:24.764Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/versions/ad6ab9c9c863d86b {"name":"projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-08-13T10:36:15.509808Z","createUser":{"email":"gameghor1835@gmail.com"},"finalizeTime":"2026-08-13T10:36:24.425342Z","finalizeUser":{"email":"gameghor1835@gmail.com"}}
+[debug] [2026-08-13T10:36:24.764Z] [hosting] finalized version for game-da862:[object Object]
+[info] +  hosting[game-da862]: version finalized 
+[info] i  hosting[game-da862]: releasing new version... 
+[debug] [2026-08-13T10:36:24.765Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:24.765Z] Checked if tokens are valid: true, expires at: 1786620966651
+[debug] [2026-08-13T10:36:24.765Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/channels/live/releases versionName=projects%2F445790113359%2Fsites%2Fgame-da862%2Fversions%2Fad6ab9c9c863d86b
+[debug] [2026-08-13T10:36:24.765Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/channels/live/releases {}
+[debug] [2026-08-13T10:36:25.792Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/channels/live/releases 200
+[debug] [2026-08-13T10:36:25.792Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-da862/channels/live/releases {"name":"projects/445790113359/sites/game-da862/channels/live/releases/1786617384729000","version":{"name":"projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-08-13T10:36:15.509808Z","createUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"},"finalizeTime":"2026-08-13T10:36:24.425342Z","finalizeUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"}},"type":"DEPLOY","releaseTime":"2026-08-13T10:36:24.729Z","releaseUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"}}
+[debug] [2026-08-13T10:36:25.793Z] [hosting] release: {"name":"projects/445790113359/sites/game-da862/channels/live/releases/1786617384729000","version":{"name":"projects/445790113359/sites/game-da862/versions/ad6ab9c9c863d86b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2026-08-13T10:36:15.509808Z","createUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"},"finalizeTime":"2026-08-13T10:36:24.425342Z","finalizeUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"}},"type":"DEPLOY","releaseTime":"2026-08-13T10:36:24.729Z","releaseUser":{"email":"gameghor1835@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIUygS9yrIN0WEhmNnvw0xNIl7IWfA0a3ryo-U4MTYWqNMz8UM"}}
+[info] +  hosting[game-da862]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/game-da862/overview
+[info] Hosting URL: https://game-da862.web.app
